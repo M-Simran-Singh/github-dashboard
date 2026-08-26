@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub Developer Dashboard.</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+    integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <body>
+    <div class="main">
+      <div class="header">
+        <div class="title">🐙 GitHub Dashboard</div>
+        <button class="moon">🌙</button>
+      </div>
+
+      <div class="input">
+        <input
+          type="text"
+          class="search"
+          placeholder="Enter a Github User name..."
+        />
+        <div class="btn">
+          <button class="searchbtn">Search</button>
+          <button class="clear"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+      </div>
+
+      <div class="error"></div>
+
+      <div class="loading"></div>
+      <div class="profile">
+        <img class="avatar" src="  " />
+        <div class="userinfo">
+          <p class="name">M-Simran-Singh</p>
+          <p class="userName">m Simran singh</p>
+          <p class="bio">bio</p>
+          <div class="details">
+            <p class="location">📍 Location</p>
+            <p class="company">🏢Company</p>
+            <p class="website">🔗Website</p>
+            <p class="joinedDate">📅Joined date</p>
+          </div>
+          <div class="status">
+            <div class="state">
+              <h4 class="followers">245</h4>
+              <p>Followers</p>
+            </div>
+
+            <div class="state">
+              <h4 class="following">120</h4>
+              <p>Following</p>
+            </div>
+
+            <div class="state">
+              <h4 class="repo">56</h4>
+              <p>Repositories</p>
+            </div>
+
+            <div class="state">
+              <h4 class="git">8</h4>
+              <p>Gists</p>
+            </div>
+          </div>
+          <div class="linkgit">
+            <a href="#" class="profileLink"> View Profile on GitHub ↗ </a>
+          </div>
+        </div>
+      </div>
+      <div class="manageRepository">
+        <div class="searchrepo">
+          <input
+            type="text"
+            class="reponame"
+            placeholder="Search repositories..."
+          />
+          <!-- <select class="options">
+                <option>Sort: Recently Updated</option>
+                 <option> Most Stars</option>
+                 <option> Most Forks</option>
+                 <option> A-Z </option>
+            </select> -->
+        </div>
+      </div>
+      <div class="repositoryGrid">
+        <div class="repoCard">
+          <h3 class="repoTitle">GitHub Dashboard</h3>
+          <p class="repoDescription">
+            A responsive GitHub developer dashboard built using HTML, CSS, and
+            JavaScript.
+          </p>
+
+          <div class="repoFooter">
+            <span class="repoLanguage">JavaScript</span>
+            <div class="repoStats">
+              <span class="stars">⭐ 120</span>
+              <span class="forks">🍴 35</span>
+              <span class="time"> 11</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="repoCard">
+        <h3 class="repoTitle">Portfolio Website</h3>
+        <p class="repoDescription">
+            Personal portfolio website showcasing projects and skills.
+        </p>
+
+        <div class="repoFooter">
+            <span class="repoLanguage">HTML</span>
+            <div class="repoStats">
+                <span>⭐ 45</span>
+                <span>🍴 12</span>
+            </div>
+        </div>
+    </div> -->
+      </div>
+    </div>
+    <script src="first.js"></script>
+  </body>
+</html>
